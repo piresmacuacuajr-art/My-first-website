@@ -1,0 +1,49 @@
+{
+  "collections": {
+    "properties": {
+      "title": "string",
+      "description": "string",
+      "price": "number",
+      "location": "string",
+      "type": "string",
+      "category": "string",
+      "bedrooms": "number",
+      "bathrooms": "number",
+      "area": "number",
+      "features": "array",
+      "images": "array",
+      "status": "string",
+      "createdAt": "timestamp"
+    },
+    "testimonials": {
+      "name": "string",
+      "role": "string",
+      "content": "string",
+      "rating": "number",
+      "image": "string"
+    },
+    "blogPosts": {
+      "title": "string",
+      "excerpt": "string",
+      "content": "string",
+      "date": "timestamp",
+      "image": "string",
+      "author": "string"
+    },
+    "inquiries": {
+      "propertyId": "string",
+      "name": "string",
+      "email": "string",
+      "phone": "string",
+      "message": "string",
+      "date": "timestamp"
+    },
+    "appConfig": {
+      "heroTitle": "string",
+      "heroSubtitle": "string",
+      "contactPhone": "string",
+      "contactEmail": "string",
+      "socialLinks": "object"
+    }
+  }
+}
